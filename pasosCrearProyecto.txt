@@ -1,0 +1,4 @@
+dentro de la carpeta del proyecto
+npx create-expo-app@latest connection
+npm run android
+npm run reset-project

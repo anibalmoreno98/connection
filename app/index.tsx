@@ -1,15 +1,14 @@
-import { Text, View } from "react-native";
+import Greetings from "@/components/greetings";
+import PanelGrid from "@/components/panelGrid";
+import styles from "@/theme";
+import { View } from "react-native";
 
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      style={styles.mainContainer}>
+      <Greetings name="Fernando" message="How can I help you today"/>
+      <PanelGrid/>
     </View>
   );
 }
