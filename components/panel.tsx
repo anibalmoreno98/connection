@@ -1,6 +1,6 @@
 import { FontAwesome5 } from '@expo/vector-icons';
 import { Text, View } from "react-native";
-import styles from "./theme";
+import styles from "../theme";
 
 
 export default function Panel (){

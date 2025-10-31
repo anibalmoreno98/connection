@@ -1,4 +1,4 @@
-import Panel from "@/panel";
+import Panel from "@/components/panel";
 import styles from "@/theme";
 import { View } from "react-native";
 
